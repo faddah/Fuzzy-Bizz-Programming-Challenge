@@ -17,7 +17,7 @@
                BlueprintIdentifier = "0A10A17413FA069000DF9B73"
                BuildableName = "Fuzzy Bizz Progamming Challenge.app"
                BlueprintName = "Fuzzy Bizz Progamming Challenge"
-               ReferencedContainer = "container:Fuzzy Bizz Progamming Challenge.xcodeproj">
+               ReferencedContainer = "container:Fuzzy Bizz Programming Challenge.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -25,7 +25,7 @@
    <TestAction
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
-      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.GDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
@@ -35,7 +35,7 @@
             BlueprintIdentifier = "0A10A17413FA069000DF9B73"
             BuildableName = "Fuzzy Bizz Progamming Challenge.app"
             BlueprintName = "Fuzzy Bizz Progamming Challenge"
-            ReferencedContainer = "container:Fuzzy Bizz Progamming Challenge.xcodeproj">
+            ReferencedContainer = "container:Fuzzy Bizz Programming Challenge.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -44,7 +44,7 @@
    <LaunchAction
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
-      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.GDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
@@ -58,7 +58,7 @@
             BlueprintIdentifier = "0A10A17413FA069000DF9B73"
             BuildableName = "Fuzzy Bizz Progamming Challenge.app"
             BlueprintName = "Fuzzy Bizz Progamming Challenge"
-            ReferencedContainer = "container:Fuzzy Bizz Progamming Challenge.xcodeproj">
+            ReferencedContainer = "container:Fuzzy Bizz Programming Challenge.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -77,7 +77,7 @@
             BlueprintIdentifier = "0A10A17413FA069000DF9B73"
             BuildableName = "Fuzzy Bizz Progamming Challenge.app"
             BlueprintName = "Fuzzy Bizz Progamming Challenge"
-            ReferencedContainer = "container:Fuzzy Bizz Progamming Challenge.xcodeproj">
+            ReferencedContainer = "container:Fuzzy Bizz Programming Challenge.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -32,7 +32,7 @@
 		0A10A18F13FA075B00DF9B73 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
 		0A10A19013FA075B00DF9B73 /* MyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyViewController.xib; sourceTree = "<group>"; };
 		0AB7EBF21C1CD3DD00B836F1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
-		0AB7EBF51C1E683F00B836F1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "Fuzzy Bizz Progamming Challenge/Images.xcassets"; sourceTree = "<group>"; };
+		0AB7EBF51C1E683F00B836F1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "Fuzzy Bizz Programming Challenge/Images.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,7 +135,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0A10A16F13FA069000DF9B73 /* Build configuration list for PBXProject "Fuzzy Bizz Progamming Challenge" */;
+			buildConfigurationList = 0A10A16F13FA069000DF9B73 /* Build configuration list for PBXProject "Fuzzy Bizz Programming Challenge" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -275,8 +275,8 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Fuzzy Bizz Programming Challenge/Fuzzy Bizz Progamming Challenge-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/Fuzzy Bizz Programming Challenge/Fuzzy Bizz Progamming Challenge-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "-86-000-mi-sec-productions.${PRODUCT_NAME:rfc1034identifier}";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "-186-000-mi-sec-productions.Fuzzy-Bizz-Progamming-Challenge";
 				PRODUCT_NAME = "Fuzzy Bizz Progamming Challenge";
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
@@ -295,8 +295,8 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Fuzzy Bizz Programming Challenge/Fuzzy Bizz Progamming Challenge-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/Fuzzy Bizz Programming Challenge/Fuzzy Bizz Progamming Challenge-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "-86-000-mi-sec-productions.${PRODUCT_NAME:rfc1034identifier}";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "-186-000-mi-sec-productions.Fuzzy-Bizz-Progamming-Challenge";
 				PRODUCT_NAME = "Fuzzy Bizz Progamming Challenge";
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
@@ -308,7 +308,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0A10A16F13FA069000DF9B73 /* Build configuration list for PBXProject "Fuzzy Bizz Progamming Challenge" */ = {
+		0A10A16F13FA069000DF9B73 /* Build configuration list for PBXProject "Fuzzy Bizz Programming Challenge" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0A10A18913FA069000DF9B73 /* Debug */,
