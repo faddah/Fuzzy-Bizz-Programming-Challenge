@@ -8,12 +8,20 @@
 
 #import <UIKit/UIkit.h>
 
+/* * * * * - commenting this out in favor of what chris luu on ios-developer.slack.com suggested
 @interface MyViewController : UIViewController <UITextInputDelegate, UITextInput, UIKeyInput, UITextInputTraits> {
     UITextField *textField;
     UILabel *label;
     IBOutlet UITextView *challengeAnswerView;
     NSString *userName;
     NSString *challengeOutputText;
+}
+ 
+* * * * * */
+
+@interface MyViewController : UIViewController <UITextInputDelegate, UITextInput, UIKeyInput, UITextInputTraits> {
+	NSString *userName;
+	NSString *challengeOutputText;
 }
 
 @property (strong, nonatomic) IBOutlet UITextField *textField;

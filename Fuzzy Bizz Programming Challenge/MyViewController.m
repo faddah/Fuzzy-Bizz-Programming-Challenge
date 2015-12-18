@@ -53,7 +53,7 @@
 {
     [self setTextField:nil];
     [self setLabel:nil];
-    self->challengeAnswerView = nil;
+//    self->challengeAnswerView = nil;
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;

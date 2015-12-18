@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				0AB7EBF51C1E683F00B836F1 /* Images.xcassets */,
-				0A10A17D13FA069000DF9B73 /* Fuzzy Biz Progamming Challenge */,
+				0A10A17D13FA069000DF9B73 /* Fuzzy Bizz Progamming Challenge */,
 				0A10A17813FA069000DF9B73 /* Frameworks */,
 				0A10A17613FA069000DF9B73 /* Products */,
 			);
@@ -75,7 +75,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		0A10A17D13FA069000DF9B73 /* Fuzzy Biz Progamming Challenge */ = {
+		0A10A17D13FA069000DF9B73 /* Fuzzy Bizz Progamming Challenge */ = {
 			isa = PBXGroup;
 			children = (
 				0A10A18613FA069000DF9B73 /* FuzzyBizzAppDelegate.h */,
@@ -85,7 +85,7 @@
 				0A10A19013FA075B00DF9B73 /* MyViewController.xib */,
 				0A10A17E13FA069000DF9B73 /* Supporting Files */,
 			);
-			name = "Fuzzy Biz Progamming Challenge";
+			name = "Fuzzy Bizz Progamming Challenge";
 			path = "Fuzzy Bizz Programming Challenge";
 			sourceTree = "<group>";
 		};
@@ -275,7 +275,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Fuzzy Bizz Programming Challenge/Fuzzy Bizz Progamming Challenge-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/Fuzzy Bizz Programming Challenge/Fuzzy Bizz Progamming Challenge-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "-186-000-mi-sec-productions.Fuzzy-Bizz-Progamming-Challenge";
 				PRODUCT_NAME = "Fuzzy Bizz Progamming Challenge";
 				PROVISIONING_PROFILE = "";
@@ -295,7 +295,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Fuzzy Bizz Programming Challenge/Fuzzy Bizz Progamming Challenge-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/Fuzzy Bizz Programming Challenge/Fuzzy Bizz Progamming Challenge-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "-186-000-mi-sec-productions.Fuzzy-Bizz-Progamming-Challenge";
 				PRODUCT_NAME = "Fuzzy Bizz Progamming Challenge";
 				PROVISIONING_PROFILE = "";
