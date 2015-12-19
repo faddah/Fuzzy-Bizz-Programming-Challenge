@@ -4,7 +4,6 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
         <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
         <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MyViewController">
@@ -20,22 +19,8 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="460"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <button opaque="NO" contentMode="left" semanticContentAttribute="spatial" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4" userLabel="Name">
-                    <rect key="frame" x="73" y="415" width="62" height="37"/>
-                    <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="62" id="g6e-Ay-hg8"/>
-                    </constraints>
-                    <color key="tintColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                    <state key="normal" title="Name">
-                        <color key="titleColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
-                    </state>
-                    <connections>
-                        <action selector="changeName:" destination="-1" eventType="touchUpInside" id="11"/>
-                    </connections>
-                </button>
-                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" semanticContentAttribute="spatial" text="" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="4" minimumFontSize="10" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="6">
-                    <rect key="frame" x="20" y="140" width="280" height="74"/>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" semanticContentAttribute="spatial" misplaced="YES" text="" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="4" minimumFontSize="10" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="6">
+                    <rect key="frame" x="20" y="136" width="280" height="69"/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <nil key="highlightedColor"/>
@@ -51,8 +36,8 @@
                         <outlet property="delegate" destination="-1" id="16"/>
                     </connections>
                 </textField>
-                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Pkb-S8-Fvf">
-                    <rect key="frame" x="20" y="222" width="280" height="180"/>
+                <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Pkb-S8-Fvf">
+                    <rect key="frame" x="20" y="217" width="280" height="180"/>
                     <subviews>
                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="TZI-Nh-MZF">
                             <rect key="frame" x="0.0" y="0.0" width="280" height="180"/>
@@ -86,8 +71,22 @@
                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <button opaque="NO" contentMode="left" semanticContentAttribute="spatial" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5">
-                    <rect key="frame" x="171" y="415" width="77" height="37"/>
+                <button opaque="NO" contentMode="left" semanticContentAttribute="spatial" verticalHuggingPriority="290" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4" userLabel="Name">
+                    <rect key="frame" x="73" y="405" width="62" height="37"/>
+                    <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="62" id="g6e-Ay-hg8"/>
+                    </constraints>
+                    <color key="tintColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="Name">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="changeName:" destination="-1" eventType="touchUpInside" id="11"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="left" semanticContentAttribute="spatial" verticalHuggingPriority="290" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5">
+                    <rect key="frame" x="171" y="405" width="77" height="37"/>
                     <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     <fontDescription key="fontDescription" type="system" pointSize="15"/>
                     <state key="normal" title="The Test">
@@ -116,8 +115,8 @@
                 <constraint firstItem="Pkb-S8-Fvf" firstAttribute="centerX" secondItem="1" secondAttribute="centerX" id="WLR-WD-zq4"/>
                 <constraint firstItem="4" firstAttribute="leading" secondItem="1" secondAttribute="leading" constant="73" id="Weo-Z8-FzB"/>
                 <constraint firstItem="Pkb-S8-Fvf" firstAttribute="leading" secondItem="1" secondAttribute="leading" constant="20" id="fuZ-Fp-h3B"/>
-                <constraint firstItem="5" firstAttribute="bottom" secondItem="1" secondAttribute="bottomMargin" id="iNa-Xm-riU"/>
-                <constraint firstItem="5" firstAttribute="top" secondItem="Pkb-S8-Fvf" secondAttribute="bottom" constant="13" id="j40-eB-IUv"/>
+                <constraint firstItem="5" firstAttribute="bottom" secondItem="1" secondAttribute="baseline" id="iNa-Xm-riU"/>
+                <constraint firstItem="5" firstAttribute="top" relation="lessThanOrEqual" secondItem="Pkb-S8-Fvf" secondAttribute="bottom" constant="13" id="j40-eB-IUv"/>
                 <constraint firstItem="Pkb-S8-Fvf" firstAttribute="top" secondItem="1" secondAttribute="top" constant="222" id="luw-sE-7Vy"/>
                 <constraint firstItem="7" firstAttribute="top" secondItem="1" secondAttribute="top" constant="20" id="qVN-Sf-UZT"/>
                 <constraint firstItem="5" firstAttribute="leading" secondItem="4" secondAttribute="trailing" constant="36" id="rhx-j2-gzW"/>

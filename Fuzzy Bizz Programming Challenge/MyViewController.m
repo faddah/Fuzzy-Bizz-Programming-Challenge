@@ -9,12 +9,13 @@
 #import "MyViewController.h"
 
 @implementation MyViewController
+/*
 @synthesize label;
 @synthesize textField;
 @synthesize userName=_userName;
 @synthesize challengeAnswerView=_challengeAnswerView;
 @synthesize challengeOutputText=_challengeOutputText;
-
+*/
 
 
 - (BOOL)textFieldShouldReturn:(UITextField *)theTextField {

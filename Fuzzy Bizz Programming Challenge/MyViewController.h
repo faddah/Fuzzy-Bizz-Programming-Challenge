@@ -19,10 +19,12 @@
  
 * * * * * */
 
-@interface MyViewController : UIViewController <UITextInputDelegate, UITextInput, UIKeyInput, UITextInputTraits> {
+@interface MyViewController : UIViewController <UITextFieldDelegate>
+
+ /*@interface MyViewController : UIViewController <UITextInputDelegate, UITextInput, UIKeyInput, UITextInputTraits> {
 	NSString *userName;
 	NSString *challengeOutputText;
-}
+} */
 
 @property (strong, nonatomic) IBOutlet UITextField *textField;
 
